@@ -1,0 +1,30 @@
+/* APRESENTAÇÃO (QUEM SOU EU) */
+.apresentacao{
+    background-color: #eceaea;
+}
+
+.apresentacao__content{
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 2rem 3rem;
+}
+
+.apresentacao__titulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.apresentacao__img{
+    height: 9.3rem;
+    float: left;
+    padding-right: 2rem;
+}
+
+.apresentacao__content p{
+    margin:  3rem 3rem 3.5rem;
+    text-align: right;
+    line-height: 2rem;
+}
+/* BREAK */
