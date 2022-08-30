@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color:darkslategray;
+  justify-content:space-between;
+  align-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+  border-style:dotted;
+  border-width:initial;
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+}
+
+/*
+layout responsivo
+@media (max-width:800px) {
+.flex-container{
+        flex-direction: column;
+    }
+}
+porém tá dando erro no flex-container,
+imagem desalinha com descrição.
+*/
+
+
+.flex-container > div {
+  background-color: grey;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 70%;
+  width: 100%;
+  line-height: 45px;
+  color: black;
+}
+.flex-container>div>img{
+    border-radius: 50%;
+}
+div>image {
+    border-radius: 50%;
+}
+
+.fllex-container>div>a:link {
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<h3>Quem Somos</h3>
+
+<div class="flex-container">
+        <div>Leandro Thurler</div>
+        <div>Marcelo Oliveira</div>
+        <div>Nicolly Sant'Anna</div>
+        <div><a href="pages/patrick.html"><image src="/img/patrick_img/perfil2.png"> Patrick Antunes</a></div>
+        <div>Pedro Lourenço</div>  
+</div>
+
+<p>Estamos prontos para lhe ajudar criando soluções ou resolvendo possíveis erros de programações</p>
+
+
+
+</body>
+</html>
+
+
