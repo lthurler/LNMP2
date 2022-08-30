@@ -1,0 +1,27 @@
+/* TECNOLOGIAS */
+.tecnologias__content{
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;    
+}
+
+.tecnologias__titulo{
+    color: #fefefe;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.tecnologias__content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.tecnologias__content img{
+    height: 60px;
+}
+/* BREAK */

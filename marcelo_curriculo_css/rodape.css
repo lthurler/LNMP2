@@ -1,0 +1,29 @@
+/* FOOTER */
+footer{
+    background-image: url(/marcelo_curriculo_images/bg.jpg);
+    margin-bottom: 0;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: .7rem;
+    display: grid;
+    justify-items: center;
+    align-items:  center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #eceaea;
+    display: inline-block;
+    padding-bottom: .5rem;
+}
+
+footer a:hover{
+    cursor: pointer;
+}
+
+footer p{
+    text-decoration: none;
+    color: #eceaea;
+    padding-top: 1rem;
+}
+/* BREAK */

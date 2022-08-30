@@ -1,0 +1,29 @@
+/* PROJETOS */
+.projetos__content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+
+}
+
+.projetos__titulo{
+    color: #fefefe;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.projetos__item{
+    color: #fefefe;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #fefefe;
+    border-radius: 20px;
+}
+/* BREAK */
