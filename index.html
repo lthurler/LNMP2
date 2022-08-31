@@ -28,8 +28,9 @@
         min-height: 250px;
         min-width: 360px;
     }
-    .flex-container {
-  display: flex;
+.flex-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   background-color:darkslategray;
   justify-content:space-between;
   align-content: space-between;
@@ -76,6 +77,8 @@ imagem desalinha com descrição.
 }
 .flex-container>div>a>img{
     border-radius: 50%;
+    width: 50%;
+    height: auto;
 }
 
 .flex-container>div>a:link {
@@ -102,7 +105,6 @@ section p{
 <body>
     <header>
         <img src="./img/WhatsApp Image 2022-08-29 at 19.39.47.jpeg" alt="logo" style="border-radius: 50%;">
-    
     </header>
     
     <nav id="navegacao">
@@ -116,11 +118,11 @@ section p{
     <section id="quem_somos">        
         <h1>Quem Somos</h1>
         <div class="flex-container">
-        <div>Leandro Thurler</div>
-        <div>Marcelo Oliveira</div>
-        <div>Nicolly Sant'Anna</div>
-        <div><a href="pages/patrick.html"><image src="/img/patrick_img/perfil2.png"> Patrick Antunes</a></div>
-        <div>Pedro Lourenço</div>  
+            <div><a href=""><image src="img/fotos de perfil/leandro_perfil.jpg">Leandro Thurler</a></div>
+            <div><a href=""><image src="img/fotos de perfil/marcelo_perfil.jpeg"></image>Marcelo Oliveira</a></div>
+            <div><a href=""><image src="img/fotos de perfil/nicolly_perfil.jpeg"></image>Nicolly Sant'Anna</a></div>
+            <div><a href="pages/patrick.html"><image src="/img/patrick_img/perfil2.png"> Patrick Antunes</a></div>
+            <div><a href=""><image src="img/fotos de perfil/pedro_perfil.jpeg"></image>Pedro Lourenço</a></div> 
         </div>
         <p>Estamos prontos para lhe ajudar criando soluções ou resolvendo possíveis erros de programações</p>
 
