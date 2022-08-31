@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LNMP2</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/styleNav.css">
 </head>
 
 <style>
@@ -25,6 +28,68 @@
         min-height: 250px;
         min-width: 360px;
     }
+    .flex-container {
+  display: flex;
+  background-color:darkslategray;
+  justify-content:space-between;
+  align-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+  border-style:dotted;
+  border-width:initial;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+}
+body{
+    width: 100%;
+        max-height: 1280px;
+        margin: auto;
+        height: 100%;
+        min-height: 250px;
+        min-width: 360px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+layout responsivo
+@media (max-width:800px) {
+.flex-container{
+        flex-direction: column;
+    }
+}
+porém tá dando erro no flex-container,
+imagem desalinha com descrição.
+*/
+
+
+.flex-container > div {
+  background-color: grey;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 70%;
+  width: 100%;
+  line-height: 45px;
+  color: black;
+}
+.flex-container>div>a>img{
+    border-radius: 50%;
+}
+
+.flex-container>div>a:link {
+    text-decoration: none;
+    color: black;
+}
+
+section h1{
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
 
 </style>
 
@@ -35,7 +100,17 @@
     </header>
  
     
-    <section>
+    <section id="quem_somos">        
+        <h1>Quem Somos</h1>
+        <div class="flex-container">
+        <div>Leandro Thurler</div>
+        <div>Marcelo Oliveira</div>
+        <div>Nicolly Sant'Anna</div>
+        <div><a href="pages/patrick.html"><image src="/img/patrick_img/perfil2.png"> Patrick Antunes</a></div>
+        <div>Pedro Lourenço</div>  
+        </div>
+
+<p>Estamos prontos para lhe ajudar criando soluções ou resolvendo possíveis erros de programações</p>
 
     </section>
 
