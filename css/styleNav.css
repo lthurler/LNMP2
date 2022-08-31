@@ -10,7 +10,6 @@ nav{
     justify-content:flex-start;
     align-items: center;
     padding: 1.5rem;
-    position: fixed;
     background-color:#2f3d40;
     width: 100%;
 }
